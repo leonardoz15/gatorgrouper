@@ -127,7 +127,8 @@ python3 gatorgrouper.py --random
 ```
 
 This will randomly group the list of students you have provided, and is the
-default grouping method used when none is provided.
+default grouping method used when none is provided. Random grouping has the advantage
+of being fast, but without any special weighting.
 
 ### Round-robin Grouping Method
 
