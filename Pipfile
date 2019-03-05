@@ -4,7 +4,6 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-pylint = "*"
 black = "*"
 pytest = "*"
 six = "*"
@@ -13,10 +12,12 @@ flake8 = "*"
 pytest-cov = "*"
 neovim = "*"
 pytest-sugar = "*"
-pytest-clarity = "*"
 autopep8 = "*"
 gspread =  "*"
 oauth2client = "*"
+pytest-django = "*"
+mixer = "*"
+pylint = "*"
 
 [packages]
 pathlib = "*"
