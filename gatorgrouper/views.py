@@ -2,7 +2,7 @@
 import csv
 from io import StringIO
 from django.shortcuts import render
-from .utils.group_rrobin import group_rrobin_num_group
+from .utils.group_creation import group_rrobin_num_group
 from .forms import UploadCSVForm
 
 
@@ -19,7 +19,7 @@ def upload_csv(request):
             )
     else:
         form = UploadCSVForm()
-    return render(request, "gatorgrouper/assignments.html", {"form": form})
+    return render(request, "gatorgrouper/upload_csv.html", {"form": form})
 
 
 def handle_uploaded_file(csvfile):
